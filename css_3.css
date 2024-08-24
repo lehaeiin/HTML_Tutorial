@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    width: 25%;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.main{
+    width:50%;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+.right{
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+    @media only screen and (max-width: 480px){
+    .left {
+        width: 50%;
+    }
+    .main{
+        width: 50%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+

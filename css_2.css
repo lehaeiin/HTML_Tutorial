@@ -1,0 +1,36 @@
+/*같은 클래스는 같은 속성 적용 */
+.title {
+    font-size: 20px;
+    background-color:blue;
+}
+.sub{
+    font-size: 15px;
+}
+.text {
+    font-size: 12px;
+}
+
+p{
+    background: darkgreen;
+    color: white;
+}
+
+p.margin{
+    margin-top: 50px;
+}
+input[type="text"]{
+    width: 200px;
+    border: 1px solid #202020;
+}
+
+input[type="password"]{
+        width: 200px;
+        border: 1px solid #202020;
+}
+
+a:visited {
+    color: black;
+    }
+a:hover {
+    color: gray;
+}
